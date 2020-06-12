@@ -22,10 +22,10 @@ sleep 6
 fi
 rm -rf phoneinfoga.sh > /dev/null 2>&1
 sleep 3
-echo -e '\033[1;91m[''\033[0m*''\033[1;91m]''\033[1;91m This Script will install PhoneInfoga Tool'
+echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m This Script will install \033[0m\033[1mPhoneInfoga Tool'
 echo
 sleep 2.0
-echo -e '\033[1;91m[''\033[0m*''\033[1;91m]''\033[1;91m This Script is written by ABHacker Official'
+echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m This Script is written by \033[0m\033[1mABHacker Official'
 echo
 sleep 2.0
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Please wait...'
