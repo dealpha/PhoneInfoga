@@ -16,6 +16,7 @@ echo -e "\x1b[91m
 "
 echo -e '\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 echo
+echo
 if [ ! -d '/sdcard' ];then
 termux-setup-storage
 sleep 6
