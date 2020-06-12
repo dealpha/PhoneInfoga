@@ -21,6 +21,7 @@ termux-setup-storage
 sleep 6
 fi
 rm -rf phoneinfoga.sh > /dev/null 2>&1
+sleep 3
 echo -e '\033[1;91m[''\033[0m*''\033[1;91m]''\033[1;91m This Script will install PhoneInfoga Tool'
 echo
 sleep 2.0
