@@ -15,11 +15,11 @@ echo -e "\x1b[91m
 █ █ ▀█ ▄█  █  █▀█ █▄▄ █▄▄ █ █ ▀█ █▄█ ▄ ▄ ▄
 "
 echo -e '\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
-
+echo
 if [ ! -d '/sdcard' ];then
 termux-setup-storage
+sleep 6
 fi
-sleep 6.0
 rm -rf phoneinfoga.sh > /dev/null 2>&1
 echo -e '\033[1;91m[''\033[0m*''\033[1;91m]''\033[1;91m This Script will install PhoneInfoga Tool'
 echo
