@@ -32,7 +32,6 @@ echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Please wait...'
 sleep 2.0
 echo
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Updating...'
-echo
 apt --assume-yes update > /dev/null 2>&1 && apt --assume-yes upgrade > /dev/null 2>&1
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installing...'
 echo
