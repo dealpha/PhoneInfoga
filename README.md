@@ -19,7 +19,6 @@
     <img src="https://img.shields.io/github/license/sundowndev/PhoneInfoga.svg?style=flat-square" alt="License" />
   </a>
 </div>
-
 <h4 align="center">Information gathering & OSINT reconnaissance tool for phone numbers</h4>
 
 ![GitHub stars](https://img.shields.io/github/stars/abhackerofficial/PhoneInfoga.svg?style=social)
