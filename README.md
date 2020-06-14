@@ -17,7 +17,7 @@
   </a>
   <a href="https://github.com/sundowndev/PhoneInfoga/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/sundowndev/PhoneInfoga.svg?style=flat-square" alt="License" />
-  </a![GitHub forks](https://img.shields.io/github/forks/abhackerofficial/PhoneInfoga.github.io.svg?style=social)>
+  </a>
 </div>
 
 <h4 align="center">Information gathering & OSINT reconnaissance tool for phone numbers</h4>
