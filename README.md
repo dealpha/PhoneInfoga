@@ -21,7 +21,7 @@
 </div>
 <h4 align="center">Information gathering & OSINT reconnaissance tool for phone numbers</h4>
 
-<img"![GitHub stars](https://img.shields.io/github/stars/abhackerofficial/PhoneInfoga.svg?style=social)">
+[![GitHub stars](https://img.shields.io/github/stars/abhackerofficial/PhoneInfoga.svg?style=social)](https://github.com/abhackerofficial)
 
 ### How to install
 - <b>Quick installation:</b></br>
