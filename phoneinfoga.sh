@@ -61,5 +61,5 @@ sleep 2.0
 echo
 printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Press Enter To Exit: \e[0m'
 read a1
-clear
-sleep 2.0
+sleep 1
+#done
