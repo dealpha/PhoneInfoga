@@ -5,6 +5,9 @@
 # Script follows here:
 clear
 cd $HOME
+if [ ! -d "/data/data/com.termux/files/home/PhoneInfoga" ]; then
+rm -rf PhoneInfoga > /dev/null 2>&1
+fi
 sleep 2.0
 echo -e '\033[1;92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 echo -e "\x1b[92m
