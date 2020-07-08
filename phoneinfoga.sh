@@ -19,9 +19,9 @@ echo -e "\x1b[91m
 "
 echo -e '\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 echo
-if [ ! -d '/sdcard' ];then
+if [ ! -d '/data/data/com.termux/files/home/storage' ];then
 termux-setup-storage
-sleep 6
+sleep 5
 fi
 rm -rf phoneinfoga.sh > /dev/null 2>&1
 sleep 3
@@ -38,11 +38,10 @@ echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Updating...'
 apt --assume-yes update > /dev/null 2>&1 && apt --assume-yes upgrade > /dev/null 2>&1
 echo
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installing...'
+command -v git > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require git but it's not installed, Now Installing.\e[1;92m"; pkg install git -y &> /dev/null; echo; }
+command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[1;92m"; pkg install python -y &> /dev/null; echo; }
+command -v python2 > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python2 but it's not installed, Now Installing.\e[1;92m"; pkg install python2 -y &> /dev/null; echo; }
 echo
-command -v git > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require git but it's not installed, Now Installing.\e[1;92m"; pkg install git -y; echo; }
-command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[1;92m"; pkg install python -y; echo; }
-command -v python2 > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python2 but it's not installed, Now Installing.\e[1;92m"; pkg install python2 -y; echo; }
-
 sleep 2.0
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installed.'
 rm -rf PhoneInfoga > /dev/null 2>&1
@@ -62,4 +61,5 @@ echo
 printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Press Enter To Exit: \e[0m'
 read a1
 sleep 1
-#done
+echo
+#done :)
